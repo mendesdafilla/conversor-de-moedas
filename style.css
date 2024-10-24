@@ -1,0 +1,22 @@
+.container {
+    text-align: center;
+    margin: 50px auto;
+}
+
+label {
+    display: block;
+}
+
+input, select {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
