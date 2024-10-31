@@ -1,22 +1,66 @@
-.container {
-    text-align: center;
-    margin: 50px auto;
-}
-
-label {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c2effa;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: #8ae1dc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0,   
+   0, 0.3);
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  label {
     display: block;
-}
-
-input, select {
-    width: 200px;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%;
     padding: 10px;
-    margin: 5px;
-}
-
-button {
-    padding: 10px 20px;
+    border: 1px   
+   solid #32b2ee;
+    border-radius: 5px;
+  }
+  
+  button {
     background-color: #4CAF50;
-    color: white;
+    color: #0e0d0d;
+    padding: 10px 20px;
     border: none;
-    cursor: pointer;
+    border-radius: 5px;
+    cursor:   
+   pointer;
+  }
+
+  /* Estilizando o botão de reset */
+button[type="button"] {
+    background-color: #dc3545; /* Cor de fundo vermelha */
+    color: rgb(8, 8, 8); /* Cor do texto branca */
 }
+ 
+  
+  #resultado {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
