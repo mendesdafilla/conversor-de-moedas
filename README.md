@@ -44,3 +44,7 @@ O resultado da conversão será exibido abaixo.
 
 Resetar: Clique no botão "Resetar" para limpar os campos e iniciar uma nova conversão.
 
+![gif](converter.gif)
+
+# AUTORA
+[Dafila] - [https://github.com/mendesdafilla]
